@@ -5,3 +5,5 @@
 ## Challenge 2 : Expanding Search Bar
 
 ## Challenge 3 : Codepen Tile
+
+## Challenge 4 : Loading Animation 1
