@@ -1,0 +1,43 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.outer-1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+}
+
+.outer-2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+}
+
