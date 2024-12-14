@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+.flag{
+    height: 200px;
+    width: calc(200px*3/2);
+    margin: 3em auto;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* .stripe{
+    flex-grow: 1;
+} */
+
+.blue{
+    background-color: #002495;
+}
+
+.white{
+    background-color: #FFF;
+}
+
+.red{
+    background-color: #ED2938;
+}
