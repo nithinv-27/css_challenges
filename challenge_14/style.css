@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+}
+
+.flag{
+    height: 200px;
+    width: calc(200px*7/6);
+    margin: 3em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.stripe{
+    flex-grow: 1;
+}
+
+.red{
+    background-color: #e15307;
+}
+
+.green{
+    background-color: #10af2a;
+}
+
+.white{
+    background-color: white;
+}
+
+.circle{
+    height: calc(200px*0.85/3);
+    width: calc(200px*0.85/3);
+    border-radius: 50%;
+    background-color: #e15307;
+    position: absolute;
+    align-self: center;
+}
+
+

@@ -1,0 +1,37 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+}
+
+.flag{
+    height: 200px;
+    width: calc(200px*7/6);
+    background-color: pink;
+    margin: 3em auto;
+    display: grid;
+}
+
+.white{
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: calc(200px*0.85/3);
+    width: calc(200px*0.85/3);
+    background-color: #e15307;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.red{
+    background-color: #e15307;
+}
+
+.green{
+    background-color: #10af2a;
+}
