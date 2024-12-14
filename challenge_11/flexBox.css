@@ -1,0 +1,29 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.flag{
+    height: 200px;
+    width: 200px;
+    margin: 30px auto;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cross-h{
+    height: calc(200px*3/16);
+    width: calc(200px*5/8);
+    background-color: white;
+
+}
+
+.cross-v{
+    height: calc(200px*5/8);
+    width: calc(200px*3/16);
+    background-color: white;
+    position: absolute;
+}
