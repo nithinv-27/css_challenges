@@ -1,0 +1,29 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color:cadetblue;
+}
+
+.flag{
+    margin: 3em auto;
+    height: 200px;
+    width: calc(200px*3/2);
+    display: grid;
+    grid-template-areas: 
+    'white_area .'
+    'white_area .';
+    grid-template-columns: 1fr 2fr;
+}
+
+.white{
+    background-color: #ffffff;
+    grid-area: white_area;
+}
+
+.red{
+    background-color: #fc3e32;
+}
+
+.green{
+    background-color: #007e39;
+}
