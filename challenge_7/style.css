@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 30;
+}
+
+@keyframes carousal{
+    0% {content: "cats";}
+    25% {content:"singing";}
+    50% {content:"scrimba";}
+    75% {content:"coding";}
+    100% {content: "cats";}
+}
+
+.word{
+    color: white;
+    margin-left: 10px;
+    padding: 20px;
+    background-color:blue;
+    border-radius: 10px;
+
+}
+
+.word h1::after{
+    content: "";
+    animation: carousal 4s linear infinite;
+}
+
+
+
+
+
