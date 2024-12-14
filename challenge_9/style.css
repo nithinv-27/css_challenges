@@ -1,0 +1,23 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.flag{
+    height: 150px;
+    width: calc(150px*5/3);
+    margin: 3em auto;
+    display: grid;
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: #DE0002;
+}
+
+.yellow{
+    background-color: #FFCE00;
+}
