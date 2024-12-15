@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid black;
+    width: 250px;
+    height: calc(250px*3/2);
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-family:'Noto Sans', sans-serif;
+    border-radius: 10px;
+}
+
+h1{
+    margin: 0;
+    justify-self: center;
+    line-height: 0.9;
+    font-weight: 500;
+}
+
+.stripe{
+    justify-self: center;
+}
+
+.center{
+    align-self: center;
+    font-size: 50;
+}
+
+.right{
+    padding-top: 10px;
+    transform: rotate(180deg);
+}
+
+.left{
+    padding-top: 10px;
+}
+
