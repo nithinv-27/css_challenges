@@ -1,0 +1,53 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 400px;
+    height: 50px;
+    margin: 100px auto;
+    border-radius: 2em;
+    background-color: lightgray;
+}
+
+.progress .stage-1{
+    height: 50px;
+    width: calc(400px*.25);
+    border-radius: 2em;
+    background-color: red;
+
+}
+
+.progress .stage-2{
+    height: 50px;
+    width: calc(400px*.5);
+    background-color: orangered;
+    border-radius: 2em;
+}
+
+.progress .stage-3{
+    height: 50px;
+    width: calc(400px*.75);
+    background-color: greenyellow;
+    border-radius: 2em;
+}
+
+.progress .stage-4{
+    height: 50px;
+    width: 400px;
+    background-color: green;
+    border-radius: 2em;
+}
+
+:root {
+    --stage-1: 25%;
+    --stage-2: 50%;
+    --stage-3: 75%;
+    --stage-4: 100%;
+    --progbar-bg: lightgray;
+    --stage-1-bg: red;
+    --stage-2-bg: orangered;
+    --stage-3-bg: greenyellow;
+    --stage-4-bg: green;
+}
