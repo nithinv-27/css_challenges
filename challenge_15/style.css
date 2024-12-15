@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #c9d1d9;
+}
+
+.container{
+    background-color: #0d1117;
+    margin: 20px auto;
+    width: 500px;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c9d1d9;
+}
+
+.content{
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 50%;
+    border: 1px solid #2e343b;
+}
+
+.profile-details{
+    margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 35;
+}
+
+h3{
+    color: #8b949e;
+    font-weight: 400;
+    font-size: 23;
+    margin-bottom: 20px;
+}
+
+p{
+    line-height: 1.2;
+    font-size: 25;
+}
+
+.btn{
+    background-color: #21262d;
+    color: #c9d1d9;
+    font-size: 20;
+    border: 1px solid #373b43;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: inherit;
+}
+
+.btn:hover{
+    background-color: #30363d;
+    border-color: #8c949e;
+}
+
+:root {
+    --font-main: 'Noto Sans', sans-serif;
+    --main-bg: #000;
+    --profile-bg: #0d1117;
+    --profile-color: #c9d1d9;
+    --profile-img-border: #2e343b;
+    --username-font-color: #8b949e;
+    --username-font-weight: 400;
+    --btn-bg: #21262d;
+    --btn-color: #c9d1d9;
+    --btn-bg-hover: #30363d;
+    --btn-border: #373b43;
+    --btn-border-hover: #8c949e;
+}
