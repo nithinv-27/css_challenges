@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    border: 1em solid brown;
+}
+
+label{
+    width: 200px;
+    height: 80px;
+    border: 1em solid black;
+    border-radius: 4em;
+    padding: .25em;
+}
+
+input{
+    display: none;
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+input:checked ~ .circle{
+    transform: translateX(calc(200px - 80px));
+}
+
+@keyframes move {
+    from {transform: translateX();}
+    to {transform: translateX(50px);}
+}
