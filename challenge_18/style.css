@@ -1,0 +1,50 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    color: red;
+    font-family: sans-serif;
+}
+
+.container{
+    border: 2px solid black;
+    width: 250px;
+    height: calc(250px*3/2);
+    margin: 50px auto;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.stripe{
+    justify-self: center;
+}
+
+.center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    gap: 0.7em;
+    padding: 0.7em 0 0.7em 0;
+    font-size: 50;
+}
+
+.rev{
+    transform: rotate(180deg);
+}
+
+.right{
+    font-size: 20;
+    transform: rotate(180deg);
+}
+
+.left{
+    font-size: 20;
+}
+
+
+
