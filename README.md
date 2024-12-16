@@ -29,3 +29,22 @@
 ## Challenge 14 : Flag of Niger
 
 ## Challenge 15 : Github Profile Layout
+
+## Challenge 16 : Toggle Switch
+
+## Challenge 17 : Playing Card: Ace of Spades
+
+## Challenge 18 : Playing Card - 4 of Hearts
+
+## Challenge 19 : Adjustable Progress Bar
+
+## Challenge 20 : Jeopardy Card Flip
+
+## Challenge 21 : Loading Animation 3
+
+## Challenge 22 : Instagram Stories Menu
+
+## Challenge 23 : Animated Progress Bar
+
+## Challenge 24 : Github Contributions Graph
+
