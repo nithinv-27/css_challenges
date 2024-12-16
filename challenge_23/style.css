@@ -1,0 +1,32 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bar{
+    width: 500px;
+    height: 50px;
+    background-color: lightgrey;
+    border-radius: 3em;
+}
+
+.progress{
+    height: 50px;
+    border-radius: 3em;
+    animation: loading 4s infinite linear;
+}
+
+@keyframes loading {
+    0% {width: 0%;background-color: red;}
+    50% {width: 50%;background-color: blue;}
+    75% {width: 100%;background-color: green;}
+    100% {width: 100%;background-color: green;}
+}
