@@ -1,0 +1,79 @@
+:root {
+    --font: 'Karla', sans-serif;
+    --font-color: #fff;
+    --grad1: #feda75;
+    --grad2: #fa7e1e;
+    --grad3: #d62976;
+    --grad4: #962fbf;
+    --grad5: #4f5bd5;
+    --viewed: gray;
+    --bg-main: #000;
+    --bg-live: red;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.stories-menu{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 2em auto;
+}
+
+.img-wrapper{
+    height: 60px;
+    width: 60px;
+    padding: 4px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    align-self: center;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.img{
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.new .img-wrapper{
+    background: linear-gradient(115deg, var(--grad1), var(--grad2), var(--grad3), var(--grad4), var(--grad5));
+}
+
+.viewed .img-wrapper{
+    background: gray;
+}
+
+.live::after{
+    content: "LIVE";
+    font-size: .8em;
+    font-weight: bold;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 30px;
+    padding: 2px 4px;
+    position: absolute;
+    top: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
